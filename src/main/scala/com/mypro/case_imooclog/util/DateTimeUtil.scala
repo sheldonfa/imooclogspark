@@ -7,7 +7,7 @@ import org.apache.commons.lang3.time.FastDateFormat
 object DateTimeUtil {
   // 10/Nov/2016:00:01:02 +0800
   val YYMMDDHHMM_TIME_FORMAT = FastDateFormat.getInstance("dd/MMM/yyyy:HH:mm:ss Z", Locale.ENGLISH)
-  val TARGET_FORMAT = FastDateFormat.getInstance("yyyy-MM HH:mm:ss")
+  val TARGET_FORMAT = FastDateFormat.getInstance("yyyy-MM-dd HH:mm:ss")
 
   /**
     * 获取输入时间：long类型

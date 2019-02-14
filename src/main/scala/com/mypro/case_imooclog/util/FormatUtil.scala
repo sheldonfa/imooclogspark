@@ -12,8 +12,4 @@ object FormatUtil {
     }
     result
   }
-
-  def main(args: Array[String]): Unit = {
-    println(format("Kitty", "Tom", "Luke", "Kit"))
-  }
 }
